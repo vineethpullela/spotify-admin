@@ -37,7 +37,7 @@ fetchAlbums()
 },[])
 
     return( <div>
-        <p>All Albums List</p>
+        <p className="album-list-name">All Albums List</p>
         <br/>
         <div>
             <div className="album-list-container">

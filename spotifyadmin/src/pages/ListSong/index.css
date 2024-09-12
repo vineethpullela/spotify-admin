@@ -53,3 +53,17 @@
 .remove{
     cursor: pointer;
 }
+
+
+
+.songs-list-name{
+    font-size: 25px;
+    font-family: "Poppins";
+    margin: 0px;
+}
+
+@media (max-width:640px) {
+    .songs-list-name{
+        font-size: 18px;
+    }
+}

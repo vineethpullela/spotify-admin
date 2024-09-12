@@ -37,7 +37,7 @@ toast.error("Error occured")
     },[])
     return(
         <div>
-            <p>All Songs List</p>
+            <p className="songs-list-name">All Songs List</p>
             <br/>
             <div>
                 <div className="songs-list-container">

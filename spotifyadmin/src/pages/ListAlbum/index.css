@@ -22,6 +22,19 @@
 }
 
 
+
+.album-list-name{
+    font-size: 25px;
+    font-family: "Poppins";
+    margin: 0px;
+}
+
+@media (max-width:640px) {
+    .album-list-name{
+        font-size: 18px;
+    }
+}
+
 .album-container{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
