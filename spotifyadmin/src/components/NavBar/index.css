@@ -12,42 +12,21 @@
     font-size: 32px;
     font-weight: 600;
 }
+.navbar-text{
+    font-size: 32px;
+    font-weight: 600;
+}
 
 @media (min-width:640px) {
     .navbar-container{
-        padding: 0px 10px 0px 10px;
-        height: 8vh;
+        padding: 0px 12px 0px 12px;
 
     }
-    .navbar-text{
-        font-size: 22px;
-        font-weight: 600;
-    }
-
-    
     
 }
 
 
-
-@media (max-width:639px) {
-    .navbar-container{
-        padding: 0px 5px 0px 5px;
-
-    }
-    .navbar-text{
-        font-size: 14px;
-    }
-    
-    
-}
-
-
-
-
-@media (max-width:540px) {
-    
-    
-    
-    
+.navbar-text{
+    font-size: 22px;
+    font-weight: 700;
 }
