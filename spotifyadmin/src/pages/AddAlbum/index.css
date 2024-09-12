@@ -1,0 +1,58 @@
+.addalbum-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: gray;
+
+}
+
+.addalbum-sub-container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.addalbum-img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.addalbum-inputs-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.addalbum-input{
+    background: transparent;
+    outline-color: green ;
+    border: 2px gray solid;
+    padding: 20px;
+   width: 40v
+   
+}
+
+.addalbum-color-container{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    
+   
+}
+
+.addalbum-submit-btn{
+background: black;
+color: white;
+padding: 20px 50px 20px 50px;
+cursor: pointer;
+font-size: 18px;
+
+}
+
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}

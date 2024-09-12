@@ -1,0 +1,55 @@
+.songs-list-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-color: gray;
+    font-size: 14px;
+    margin-right: 10px;
+    background: rgb(231, 229, 229);
+    
+}
+
+
+@media (min-width:640px) {
+    .songs-list-container{
+        display: grid;
+       
+
+    
+    }
+}
+
+
+.song-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px gray solid;
+    font-size: 14px;
+    margin-right: 10px;
+    background: transparent;
+}
+
+
+@media (min-width:640px) {
+    .song-container{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+    
+    }
+    
+}
+
+
+.song-img{
+    width: 50px;
+}
+
+
+.remove{
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.addsong-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: gray;
+}
+
+.addsong-sub-container{
+display: flex;
+
+gap: 40px;
+}
+
+.addsong-flex-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+.upload-img{
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+.form-inputs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+
+.input{
+    background: transparent;
+    outline-color: green ;
+    border: 2px gray solid;
+    padding: 20px;
+    width: 40vw;
+
+}
+
+
+.album-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5px;
+}
+
+.album-select-container{
+    background: transparent;
+    outline-color: green ;
+    border: 2px gray solid;
+    padding: 20px;
+    width: 20vw;
+}
+
+.album-submit-button{
+    background: black;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.loading-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
